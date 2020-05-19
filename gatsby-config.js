@@ -1,33 +1,38 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `jantonioavalos | Blogfolio`,
+    name: `Juan Antonio Avalos`,
+    siteUrl: `https://jantonioavalos.com`,
+    description: `Juan Antonio Avalos UX Portfolio.`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Hi. I'm Antonio! <br>
+      And I can help you translating your business needs into value for your customers.`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
+        name: `linkedin`,
+        url: `https://www.linkedin.com/in/jantonioavalos/`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/jantonioavalos`,
+      },
+      {
+        name: `medium`,
+        url: `https://medium.com/@jantonioavalos`,
+      },
+      {
+        name: `twitter`,
+        url: `https://twitter.com/jantonioavalos`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/jantonioavalos`,
       },
       {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `mailto`,
+        url: `mailto:hey@jantonioavalos.com`,
       },
     ],
   },
@@ -59,8 +64,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-      },
+      options: {},
     },
   ],
 };
