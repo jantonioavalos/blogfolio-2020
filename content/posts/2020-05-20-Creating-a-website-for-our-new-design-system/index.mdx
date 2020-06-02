@@ -1,0 +1,272 @@
+---
+title: Creating a website for our new design system
+subtitle: test
+author: Juan Antonio Avalos
+date: 2020-05-20
+hero: ./images/hero.png
+excerpt: How our internal UX consultancy tasks were reduced by 80% systematizing and promoting design and content guidelines on a single-source-of-true website.
+secret: false
+slug: Creating-a-website-for-a-design-system
+---
+
+How our internal UX consultancy tasks were reduced by 80% systematizing and promoting design and content guidelines on a single-source-of-true website.
+
+### Giving you context
+
+Every year we have a big amount of product launches which are coordinated by marketing, engineers, and our online experience departments to create or update pages and entire sections on our corporate website.
+
+However, our internal publishing team struggles with stakeholders' requests, who ask for features and placing content out of our online experience standards.
+
+And, they don't have arguments to discuss requirements except to go with us (UX/UI internal team) to help them create more appropriate proposals keeping consistency on the look and feel of the corporate website.
+
+But, we can't assist them as needed because of handling 10+ projects with the IT department delays our expected delivery time to 1 week for those consultancy tasks.
+
+---
+
+In conclusion, we needed to empower publishing people and educate stakeholders by design and content guidelines on a single-source-of-true website.
+
+---
+
+## My process
+
+---
+
+### Iteration is key
+
+It's usual for stakeholders who are out of design/development cycles, thinking on a beautiful linear flow, but the UX process should be circular.
+
+Getting actionable insights from research, applying them in low/high fidelity designs so they can be tested, getting stakeholders and users feedback to iterate and start again.
+
+But, to make this story easier for you to read, I divided the project into 5 well-known categories.
+
+Strategy
+Research
+Prototyping
+Development
+Testing
+
+---
+
+## Strategy
+
+---
+
+### Mini-brief
+
+Key users of the solution:
+
+- Marketing people (Europe and the USA)
+- Product's engineers (Austin, TX)
+- Web publishers (Guadalajara, MX)
+
+Main scenarios:
+
+- During virtual meetings
+- Planning product's launches
+- Discussing product pages redesign.
+
+Business goals:
+
+- Migrate all design documents to a standardized web format as a guidelines section on the brand website.
+- Work on it as a side-project during Q2-Q3/2019.
+- Reduce to the half the consultancy tasks.
+
+Project's team:
+
+- A Sr. UI developer (Austin, TX)
+- Me, as UX designer lead (Guadalajara, MX)
+
+---
+
+## Research
+
+---
+
+### Interviews and immersion
+
+I interviewed around eight people with a set of process-oriented questions so I could map and understand the full picture. I basically asked:
+
+1. What are your deliveries? (Outputs)
+2. What do you need to start? (Inputs)
+3. What is essential for your work? (Resources)
+4. Who are the decision-makers? (Control)
+5. How do you produce your deliveries? (Tasks)
+
+And, to empathize with their work, I ran part of the process to be familiar with 'the how'.
+
+I reduced the process to touchpoints, and as you can see there's a lot of resources delivered by different channels to publishers.
+
+We'd need to reduce the touchpoints at their left, making all transparent to them so they could actively find what they need whenever they need it.
+
+Also, while acting as a publisher I discovered what they needed the most:
+
+- Page templates with mandatory and optional components.
+- Code for recreating each component with approved variations.
+- And, specific content guidelines to fill each one.
+
+---
+
+> So, I realized my whole UX/UI team needed to evolve our UX practice to provide all in a systematic way!
+
+---
+
+### Matching business and customers with templates
+
+I started at the highest level of our corporate website navigation, labeling the type of page templates we needed according to the product hierarchy and the expected action of customers.
+
+### Modular pages
+
+I classified the page template's parts inspired by the Atomic Design Methodology since that would allow us to build a library of patterns.
+
+Since we already counted with a style guide and a components collection, this was the last step to complete our own Design System.
+
+From now each page could use:
+
+- The appropriate template to tell a story
+  - Composed by sections with a topic
+    - Built by modules or components
+      - Made of HTML elements
+
+---
+
+> Selling this as our evolution to a Design System made my UX/UI team commit to rework the existing designs and move to the modular pattern
+
+---
+
+## Prototyping
+
+---
+
+### Information Architecture (IA)
+
+I created a site map of our old brand website and determined we had to delete a lot of outdated content, keeping just essential code documentation, our style guide, and components collection.
+
+I proposed a new organization based on an audience scheme, with a narrow and deep hierarchy:
+
+- Home, summarizing all the contents.
+- Brand, to keep our style guide and brand rules.
+- Content, the heart of this project to help publishers and content creators.
+  - With the corporate website IA, page templates and their respective parts.
+- Developers, gathering the still valid code documentation.
+- Resources, for third-party downloadable content.
+
+We'd update the top-bar in the header for global navigation and implement a new left-bar for local navigation, helping to find what they need.
+
+### Sketches and wireframes
+
+I started with low fidelity wireframes to place all the content considering the intended user journey:
+
+- Where would my new page fit?
+  Step 1: Corporate website IA (Not in picture)
+  - Tree of all corporate website areas: products, support, etc.
+  - The company goal for each area.
+  - Link to the respective page template.
+- How would it look?
+  Step 2: Template page (Left drawing)
+  - Page location according to the IA.
+  - Intended customer goal at this point.
+  - Audience (Type of customers).
+  - Page template's interactive image.
+- What info should I include on it?
+  Step 3: Section page (Right drawing)
+  - Image displaying details.
+  - Section's content goal.
+  - Constraints: Do's and Dont's.
+  - Content Guidelines
+  - Download and view code buttons
+
+After early feedback from the users. I tried Adobe XD to create the digital wireframes to be presented to the UI developer and my manager.
+
+I used Invision Freehand so all could interact with the designs in the meeting, which helped us to add and remove ideas faster, such as:
+
+- Including links aside to the template's image, to scan better the page. Instead of the interactive image.
+- Getting rid of the breadcrumb. Due to the development time and duplicity with the left navigation we were incorporating.
+
+I collected a lot of notes to continue by the same process with the rest of the screens:
+
+- Home.
+- Categories: Brand, Content, Developers, Resources.
+- And, their sub-categories.
+
+---
+
+## Development
+
+---
+
+### Rebuilding the site with React
+
+The UI developer and I decided to go directly to the implementation. So our manager asked us to explore React.JS since the company was adopting it and he now wanted not just to redesign but to rebuild the entire brand website.
+
+- The UI developer and a backend engineer created the app environment.
+- They selected Gatsby due to its short time-to-production.
+- I edited the React components and used Markdown writing format to feed them.
+
+The new approach gave us some benefits
+
+- Faster page's load speed (including images)
+- A backend way easier to maintain
+- Zero programming skills required to update the content, due to Markdown.
+
+Also, we made some UI adjustments inspired by Nathan Curtis' analysis of other design systems about how to connect design, code and content guidelines. Like using a table similar to Morningstar.
+
+---
+
+## Testing
+
+---
+
+### Usability testing
+
+Based on the book Don't make me think, I introduced to my UX/UI team the usability tests, creating formats for the facilitator and the observers to run moderated usability test sessions.
+
+They helped me to run 2 series of 4 sessions with some of the marketers, engineers, and publishers.
+
+It was very useful to discover users' preferences, like using (100%) the left-bar navigation over the header menu, which lead to updating it. Or, even little details as changing "View code" to "Go to code" in a button, to communicate better to the user what to expect.
+
+Other observations that produced iterations:
+
+- Include pages from the corporate website as examples, to see the real use of the template.
+- Break the template's page into tabs to present its sections, so they could focus on 1 topic at a time while building a page.
+- Using links as call-to-action instead of clickable titles was 200% more engaging.
+
+---
+
+## Results
+
+---
+
+> "Now it's clear to me why we should consider design in our requests to improve customer engagement with better content"
+> Edge Processing Product Marketer
+
+---
+
+### What have I learned from this project?
+
+Although the case study is explained here as a logic thread, getting to the right problem to solve and using the correct method to find it was challenging. But in the end, results come from building and testing: failing fast and cheap.
+
+And, feedback is incredibly useful! Critique sessions with my team and maintaining clear communication with management regarding the expectations and progress was perhaps the biggest teaching after leading this project.
+
+Even there are some pending improvements, the UI developer and I helped the publishing, marketing, and engineering people to create or redesign product pages easier, keeping design and content consistent by a new brand website with our new design system with content guidelines, which reduced by 80% the UX consultancy requests in our queue.
+
+---
+
+- 7 months
+  Using our spare-time for this internal project
+- +3 new tools
+  My UX/UI team learned atomic design, usability testing, and markdown
+- +4 iterations
+  From the IA redesign, development and testing phases
+- 3 countries
+  People from Mexico, USA, and France helped during the project
+
+---
+
+## UX Consultancy was reduced by 80% in the following month!
+
+---
+
+> "We have now the power of knowledge on a request's negotiation to maintain all pretty and consistent"
+> Web Publishing Team
+
+---
