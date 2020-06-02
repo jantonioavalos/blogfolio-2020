@@ -5,34 +5,30 @@ module.exports = {
     siteUrl: `https://jantonioavalos.com`,
     description: `Juan Antonio Avalos UX Portfolio.`,
     hero: {
-      heading: `Hi. I'm Antonio! <br>
-      And I can help you translating your business needs into value for your customers.`,
+      heading: `Hi! I'm J. Antonio Avalos.<br>
+      And I help businesses to create solutions that people can easily use.`,
       maxWidth: 652,
     },
     social: [
       {
+        name: `mailto`,
+        url: `mailto:hey@jantonioavalos.com`,
+      },
+      {
         name: `linkedin`,
         url: `https://www.linkedin.com/in/jantonioavalos/`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/jantonioavalos`,
-      },
-      {
-        name: `medium`,
-        url: `https://medium.com/@jantonioavalos`,
       },
       {
         name: `twitter`,
         url: `https://twitter.com/jantonioavalos`,
       },
       {
-        name: `instagram`,
-        url: `https://instagram.com/jantonioavalos`,
+        name: `medium`,
+        url: `https://uxdesign.cc/@jantonioavalos`,
       },
       {
-        name: `mailto`,
-        url: `mailto:hey@jantonioavalos.com`,
+        name: `github`,
+        url: `https://github.com/jantonioavalos`,
       },
     ],
   },
@@ -43,7 +39,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        authorsPage: true, //Authors enable/disable
         sources: {
           local: true,
           // contentful: true,
@@ -53,8 +49,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Blogfolio by jantonioavalos`,
+        short_name: `jantonioavalos`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -65,6 +61,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {},
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-168307528-1",
+      },
     },
   ],
 };
