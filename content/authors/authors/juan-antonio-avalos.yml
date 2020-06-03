@@ -1,12 +1,11 @@
 name: Juan Antonio Avalos
-bio: |
-  Product Designer and UX Engineer | @jantonioavalos
+bio: I'm a UX Architect. And I work with teams to create usable solutions that provide value for our audience.
 avatar: ./avatars/juan-antonio-avalos.jpg
 social:
-  - url: https://www.linkedin.com/in/jantonioavalos/
-  - url: https://github.com/jantonioavalos
-  - url: https://medium.com/@jantonioavalos
-  - url: https://twitter.com/jantonioavalos
-  - url: https://instagram.com/jantonioavalos
   - url: mailto:hey@jantonioavalos.com
+  - url: https://www.linkedin.com/in/jantonioavalos/
+  - url: https://twitter.com/jantonioavalos
+  - url: https://medium.com/@jantonioavalos
+  - url: https://github.com/jantonioavalos
 featured: true
+slug: story
