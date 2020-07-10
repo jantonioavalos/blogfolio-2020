@@ -1,7 +1,13 @@
-# My Personal website
+# 👋 Hey! This is Antonio.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/628686ef-9b91-401d-99ef-2cd0d1500cae/deploy-status)](https://app.netlify.com/sites/jantonioavalos/deploys)
+I'm a product designer and front-end developer based on Mexico. 🇲🇽
 
-This site began using [Novela](https://github.com/narative/gatsby-theme-novela). A [Gatsby starter](https://www.gatsbyjs.org/docs/plugins-themes-and-starters/#what-is-a-starter), which I have also contributed to.
+## Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/628686ef-9b91-401d-99ef-2cd0d1500cae/deploy-status)](https://app.netlify.com/sites/jantonioavalos/deploys)
+It is built using Netlify and Gatsby (React, GraphQL, Markdown). It displays some case studies as portfolio and it links my Medium posts:
+
+[jantonioavalos.com](https://jantonioavalos.com)
+
+#### Social Media
+[Twitter](https://twitter.com/jantonioavalos) | [LinkedIn](https://www.linkedin.com/in/jantonioavalos/) | [Medium](https://medium.com/@jantonioavalos)
 
 ---
